@@ -1,0 +1,189 @@
+.in-profileInfo {
+    display: grid;
+    grid-template:
+        "profileImage profileUser profileUser profileUser" auto
+        "profileBio profileBio profileBio profileBio" auto
+        "profileStories profileStories profileStories profileStories" auto
+        "profileInfo__numbers profileInfo__numbers profileInfo__numbers profileInfo__numbers" auto
+    ;
+    padding: $gutter $gutter * 2 0 $gutter * 2;
+
+    &__image {
+        grid-area: profileImage;
+    }
+
+    &__user {
+        display: flex;
+        gap: $gutter * 3;
+        grid-area: profileUser;
+    }
+
+    &__bio {
+        display: flex;
+        flex-direction: column;
+        gap: $gutter;
+        padding-top: $gutter * 2;
+        @include fontSize(1.4);
+        color: $primaryText;
+        line-height: 18px;
+        grid-area: profileBio;
+
+        h4 {
+            font-weight: $bold;
+        }
+
+        p {
+            white-space: pre-wrap;
+        }
+    }
+
+    &__stories {
+        padding: $gutter * 3 0;
+        grid-area: profileStories;
+    }
+
+    &__numbers {
+        display: flex;
+        justify-content: space-between;
+        padding: $gutter * 2 $gutter * 4;
+        gap: $gutter * 2;
+        grid-area: profileInfo__numbers;
+    }
+
+    &__number {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: $gutter;
+        @include fontSize(1.4);
+        color: $primaryText;
+
+        > span {
+            color: $secondaryText;
+            font-weight: $regular;
+        }
+
+        &--inverted {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+.in-profileUser {
+    display: flex;
+    flex-direction: column;
+    padding-top: $gutter;
+    gap: $gutter * 2;
+
+    &__title {
+        @include fontSize(2.0);
+        color: $primaryText;
+        font-weight: $medium;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: $gutter;
+        max-height: 32px;
+
+        button:last-child {
+            min-width: fit-content;
+        }
+    }
+}
+
+.in-profileNavigate {
+    padding-bottom: $gutter * 4;
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 $gutter * 4;
+        gap: $gutter * 2;
+    }
+
+    &__button {
+        @include fontSize(2.8);
+        color: $secondaryText;
+
+        span {
+            display: none;
+        }
+
+        &.selected {
+            color: $blueText;
+        }
+    }
+}
+
+@media($aboveTablet) {
+    .in-profileInfo {
+        display: grid;
+        grid-template:
+        "profileImage profileUser profileUser profileUser" auto
+        "profileImage profileInfo__numbers profileInfo__numbers profileInfo__numbers" auto
+        "profileImage profileBio profileBio profileBio" auto
+        "profileStories profileStories profileStories profileStories" auto
+        ;
+
+        &__image {
+            display: flex;
+            align-items: center;
+            padding-left: $gutter * 4;
+        }
+
+        &__user {
+            flex-direction: row;
+        }
+
+        &__bio {
+            gap: 0;
+        }
+
+        &__stories {
+            padding-left: $gutter * 4;
+            padding-right: $gutter * 4;
+            padding: $gutter * 3 $gutter * 4 $gutter * 6 $gutter * 4;
+            border-bottom: none;
+        }
+
+        &__numbers {
+            justify-content: flex-start;
+            width: max-content;
+            padding-left: 0;
+            padding-right: 0;
+            gap: $gutter * 4;
+            white-space: nowrap;
+        }
+
+        &__number {
+            flex-direction: row;
+
+            span {
+                color: $primaryText;
+            }
+        }
+    }
+
+    .in-profileUser {
+        flex-direction: row;
+        align-items: center;
+        gap: $gutter * 4;
+    }
+
+    .in-profileNavigate {
+        &__button {
+            gap: $gutter;
+            @include fontSize(1.2);
+
+            span {
+                display: block;
+            }
+
+            &.selected {
+                color: $primaryText;
+            }
+        }
+    }
+}

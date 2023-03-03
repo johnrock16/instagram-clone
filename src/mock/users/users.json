@@ -1,0 +1,34 @@
+{
+    "Coffeislife": {
+        "id": "Coffeeislife",
+        "info" : {
+            "name": "Audra Colleen",
+            "bio": "1994, Gemini\n🟣 I belive in my universe 🟣\nand coffee is my life!",
+            "postsCount": "150",
+            "followersCount": "10 mil",
+            "followingCount": 256
+        },
+        "content": {
+            "feed": [
+                {"type": "image", "src": "./images/feed/moon.webp", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/coffee.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/sunflowers.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/la.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/beach.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/ny.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/dog.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/cat.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "./images/feed/macbook.jpeg", "alt": "a women drinking coffe"}
+            ],
+            "stories": [
+                {"title": "pets", "image": {"src": "./images/stories/dog.webp", "alt": "story"}},
+                {"title": "travels", "image": {"src": "./images/stories/travels.jpeg", "alt": "story"}},
+                {"title": "sky", "image": {"src": "./images/stories/sky.webp", "alt": "story"}},
+                {"title": "routine", "image": {"src": "./images/stories/macbook.jpeg", "alt": "story"}},
+                {"title": "places", "image": {"src": "./images/stories/bike.jpeg", "alt": "story"}},
+                {"title": "aesthetic", "image": {"src": "./images/stories/hand.webp", "alt": "story"}},
+                {"title": "books", "image": {"src": "./images/stories/book.webp", "alt": "story"}}
+            ]
+        }
+    }
+}

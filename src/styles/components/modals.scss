@@ -1,0 +1,33 @@
+.lm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: $gutter * 4;
+    gap: $gutter * 4;
+    background-color: $white;
+    border-radius: $borderRadius;
+    transform: none;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: $gutter * 4;
+
+        > span {
+            @include fontSize(2.4);
+        }
+    }
+}
+
+@media ($aboveTablet) {
+    .lm-modal {
+        top: 50%;
+        left: 50%;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+}

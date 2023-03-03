@@ -1,0 +1,22 @@
+.in-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: $gutter * 10 $gutter * 5;
+        gap: $gutter * 2;
+    }
+
+    &__link {
+        @include fontSize(1.2);
+        color: $secondaryText;
+        text-decoration: none;
+    }
+}
