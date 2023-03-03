@@ -39,7 +39,7 @@
 
 @media ($aboveTablet) {
     .in-stories {
-        width: 100%;
+        width: auto;
         gap: $gutter * 4;
     }
     .in-story {
