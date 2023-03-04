@@ -16,7 +16,7 @@
 
     &__link {
         @include fontSize(1.2);
-        color: $secondaryText;
+        color:$secondaryTextContrast;
         text-decoration: none;
     }
 }

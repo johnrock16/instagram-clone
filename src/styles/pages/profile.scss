@@ -61,7 +61,7 @@
         color: $primaryText;
 
         > span {
-            color: $secondaryText;
+            color:$secondaryTextContrast;
             font-weight: $regular;
         }
 
@@ -107,7 +107,7 @@
     &__button {
         @include fontSize(2.8);
         text-transform: uppercase;
-        color: $secondaryText;
+        color: $secondaryTextContrast;
 
         span {
             display: none;
@@ -140,6 +140,7 @@
         }
 
         &__bio {
+            padding-top: $gutter;
             gap: 0;
         }
 

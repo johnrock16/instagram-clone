@@ -23,7 +23,7 @@ function ProfilePage({userID}) {
       <div className='container'>
         <div className='in-profileInfo border--bottom'>
           <div className='in-profileInfo__image'>
-            <img className='in-image--profile' src={user.info.image.src} alt={`${t('alt.profileImage')}${user.id}`} loading="lazy"/>
+            <img className='in-image--profile' src={user.info.image.src} alt={`${t('alt.profileImage')}${user.id}`} loading="lazy" width="77" height="77"/>
           </div>
           <div className='in-profileInfo__user'>
             <div className='in-profileUser'>

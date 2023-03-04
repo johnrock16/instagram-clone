@@ -15,13 +15,14 @@
     h2 {
         @include fontSize(1.2);
         font-weight: $regular;
-        color: $secondaryText;
+        color:$secondaryTextContrast;
     }
 
     img {
         width: 56px;
         height: 56px;
         border-radius: 50%;
+        object-fit: cover;
     }
 }
 

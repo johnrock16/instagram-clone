@@ -1,6 +1,7 @@
 .in-image {
     &--profile {
-        max-width: 77px;
+        width: 77px;
+        height: 77px;
         border-radius: 50%;
     }
 }
@@ -8,7 +9,8 @@
 @media ($aboveTablet) {
     .in-image {
         &--profile {
-            max-width: 150px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
         }
     }

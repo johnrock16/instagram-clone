@@ -8,6 +8,7 @@ $secondary: #EFEFEF;
 
 $primaryText: #262626;
 $secondaryText: #8E8E8E;
+$secondaryTextContrast: #545454;
 $blueText: #0095f6;
 
 $borderPrimary: #DBDBDB;
@@ -19,6 +20,7 @@ $theme-colors:(
     "secondary": $secondary,
     "primaryText": $primaryText,
     "secondaryText": $secondaryText,
+    "secondaryTextContrast": $secondaryTextContrast,
     "blueText": $blueText,
     "borderPrimary": $borderPrimary
 )
