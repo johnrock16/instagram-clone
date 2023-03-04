@@ -1,8 +1,18 @@
 const EN_US = {
   translations: {
+    alt: {
+      profileImage: "profile of a ",
+    },
     buttons: {
       follow: 'Follow',
-      directMessage: "Direct Message"
+      directMessage: "Direct Message",
+      aria: {
+        gridButtons: {
+          posts: "button to see posts content in grid",
+          reels: "button to see posts content in grid",
+          tagged: "button to see posts content in grid",
+        }
+      }
     },
     common: {
       posts: "Publicações",

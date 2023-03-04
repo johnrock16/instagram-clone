@@ -1,8 +1,18 @@
 const PT_BR = {
   translations: {
+    alt: {
+      profileImage: "perfil de ",
+    },
     buttons: {
       follow: "Seguir",
-      directMessage: "Enviar Mensagem"
+      directMessage: "Enviar Mensagem",
+      aria: {
+        gridButtons: {
+          posts: "botão pra ver as postagens do perfil",
+          reels: "botão pra ver os reels do perfil",
+          tagged: "botão pra ver as postagens que este perfil foi marcado",
+        }
+      }
     },
     common: {
       posts: "Publicações",

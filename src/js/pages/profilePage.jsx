@@ -4,16 +4,26 @@ import {BsPersonSquare} from 'react-icons/bs';
 import Story from '../components/story';
 import USER from '../../mock/users/users.json';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 function ProfilePage({userID}) {
+  const [currentGrid, setCurrentGrid] = useState("feed");
   const { t } = useTranslation();
   const user = USER[userID];
+
+  const handleGrid = (e) => {
+    const target = e.target.tagName === 'BUTTON' ? e.target : e.target.closest('button');
+    target.parentElement.querySelector('.selected')?.classList.remove('selected');
+    target.classList.add('selected');
+    setCurrentGrid(target.dataset.grid);
+  };
+
   return(
     <div className='in-profilePage'>
       <div className='container'>
         <div className='in-profileInfo border--bottom'>
           <div className='in-profileInfo__image'>
-            <img className='in-image--profile' src={user.info.image.src} alt={`profile of a ${user.id}`} loading="lazy"/>
+            <img className='in-image--profile' src={user.info.image.src} alt={`${t('alt.profileImage')}${user.id}`} loading="lazy"/>
           </div>
           <div className='in-profileInfo__user'>
             <div className='in-profileUser'>
@@ -38,13 +48,13 @@ function ProfilePage({userID}) {
           </div>
         </div>
         <div className='in-profileNavigate border--bottom'>
-          <div className='in-profileNavigate__buttons'>
-            <button className='in-profileNavigate__button selected button button--icon' aria-label='button to see posts grid'><IoMdGrid className='icon'/><span>{t("common.posts")}</span></button>
-            <button className='in-profileNavigate__button button button--icon' aria-label='button to see reels grid'><BiMoviePlay className='icon'/><span>{t("common.reels")}</span></button>
-            <button className='in-profileNavigate__button button button--icon' aria-label='button to see tagged grid'><BsPersonSquare className='icon'/><span>{t("common.tagged")}</span></button>
+          <div className='in-profileNavigate__buttons' onClick={handleGrid}>
+            <button className='in-profileNavigate__button selected button button--icon' aria-label={t("buttons.aria.gridButtons.posts")} data-grid="feed"><IoMdGrid className='icon'/><span>{t("common.posts")}</span></button>
+            <button className='in-profileNavigate__button button button--icon' aria-label={t("buttons.aria.gridButtons.reels")} data-grid="reels"><BiMoviePlay className='icon'/><span>{t("common.reels")}</span></button>
+            <button className='in-profileNavigate__button button button--icon' aria-label={t("buttons.aria.gridButtons.tagged")} data-grid="tagged"><BsPersonSquare className='icon'/><span>{t("common.tagged")}</span></button>
           </div>
           <div className='in-profileNavigate__grid in-grid'>
-            {(user.content.feed) && (user.content.feed.map((element, index) => (
+            {(user.content[currentGrid]) && (user.content[currentGrid].map((element, index) => (
               <div className='in-grid__item' key={`in-gridItem-${index}`}>
                 <img className='img-fluid' src={element.src} alt={element.alt} loading="lazy"/>
               </div>

@@ -25,6 +25,22 @@
                 {"type": "image", "src": "/images/feed/cat.jpeg", "alt": "a women drinking coffe"},
                 {"type": "image", "src": "/images/feed/macbook.jpeg", "alt": "a women drinking coffe"}
             ],
+            "reels": [
+                {"type": "image", "src": "/images/feed/moon.webp", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/coffee.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/sunflowers.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/la.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/beach.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/ny.jpeg", "alt": "a women drinking coffe"}
+            ],
+            "tagged": [
+                {"type": "image", "src": "/images/feed/la.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/beach.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/ny.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/moon.webp", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/coffee.jpeg", "alt": "a women drinking coffe"},
+                {"type": "image", "src": "/images/feed/sunflowers.jpeg", "alt": "a women drinking coffe"}
+            ],
             "stories": [
                 {"title": "pets", "image": {"src": "/images/stories/dog.webp", "alt": "story"}},
                 {"title": "travels", "image": {"src": "/images/stories/travels.jpeg", "alt": "story"}},
