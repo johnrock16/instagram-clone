@@ -28,7 +28,8 @@
         line-height: 18px;
         grid-area: profileBio;
 
-        h4 {
+        h2 {
+            @include fontSize(1.4);
             font-weight: $bold;
         }
 
@@ -105,6 +106,7 @@
 
     &__button {
         @include fontSize(2.8);
+        text-transform: uppercase;
         color: $secondaryText;
 
         span {

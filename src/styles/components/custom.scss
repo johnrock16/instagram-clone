@@ -9,10 +9,14 @@
     flex-direction: column;
     align-items: center;
     gap: $gutter;
-    @include fontSize(1.2);
-    color: $secondaryText;
     font-weight: $regular;
     border-radius: 50%;
+
+    h2 {
+        @include fontSize(1.2);
+        font-weight: $regular;
+        color: $secondaryText;
+    }
 
     img {
         width: 56px;

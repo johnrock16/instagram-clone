@@ -20,11 +20,21 @@ h1, h2, h3, h4, h5, p {
 }
 
 .border {
+    &--none {
+        border: none;
+    }
     &--top {
         border-top: 1px solid $borderPrimary;
     }
     &--bottom {
         border-bottom: 1px solid $borderPrimary;
+    }
+}
+
+.select {
+    &--text {
+        padding: 0;
+        width: min-content;
     }
 }
 
