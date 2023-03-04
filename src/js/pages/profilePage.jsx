@@ -1,10 +1,12 @@
+
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import PropTypes from 'prop-types';
+import Story from '../components/story';
 import {IoMdGrid} from 'react-icons/io';
 import {BiMoviePlay} from 'react-icons/bi';
 import {BsPersonSquare} from 'react-icons/bs';
-import Story from '../components/story';
 import USER from '../../mock/users/users.json';
-import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
 
 function ProfilePage({userID}) {
   const [currentGrid, setCurrentGrid] = useState("feed");
@@ -64,6 +66,10 @@ function ProfilePage({userID}) {
       </div>
     </div>
   );
+}
+
+ProfilePage.propTypes = {
+  userID: PropTypes.string
 }
 
 export default ProfilePage;

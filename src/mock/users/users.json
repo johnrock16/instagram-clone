@@ -16,37 +16,37 @@
         "content": {
             "feed": [
                 {"type": "image", "src": "/images/feed/moon.webp", "alt": "I love the moon"},
-                {"type": "image", "src": "/images/feed/coffee.jpeg", "alt": "Coffee + book = the best combo ever"},
-                {"type": "image", "src": "/images/feed/sunflowers.jpeg", "alt": "sunflowers <3"},
-                {"type": "image", "src": "/images/feed/la.jpeg", "alt": "Los Angeles - California"},
-                {"type": "image", "src": "/images/feed/beach.jpeg", "alt": "footprints in sand"},
-                {"type": "image", "src": "/images/feed/ny.jpeg", "alt": "Somewhere in New York"},
-                {"type": "image", "src": "/images/feed/dog.jpeg", "alt": "My dog likes to be around my books and macbook"},
-                {"type": "image", "src": "/images/feed/cat.jpeg", "alt": "My cat's eyes"},
-                {"type": "image", "src": "/images/feed/macbook.jpeg", "alt": "I really love drinking coffee while I work"}
+                {"type": "image", "src": "/images/feed/coffee.webp", "alt": "Coffee + book = the best combo ever"},
+                {"type": "image", "src": "/images/feed/sunflowers.webp", "alt": "sunflowers <3"},
+                {"type": "image", "src": "/images/feed/la.webp", "alt": "Los Angeles - California"},
+                {"type": "image", "src": "/images/feed/beach.webp", "alt": "footprints in sand"},
+                {"type": "image", "src": "/images/feed/ny.webp", "alt": "Somewhere in New York"},
+                {"type": "image", "src": "/images/feed/dog.webp", "alt": "My dog likes to be around my books and macbook"},
+                {"type": "image", "src": "/images/feed/cat.webp", "alt": "My cat's eyes"},
+                {"type": "image", "src": "/images/feed/macbook.webp", "alt": "I really love drinking coffee while I work"}
             ],
             "reels": [
-                {"type": "image", "src": "/images/feed/la.jpeg", "alt": "Los Angeles - California"},
-                {"type": "image", "src": "/images/feed/beach.jpeg", "alt": "footprints in sand"},
-                {"type": "image", "src": "/images/feed/ny.jpeg", "alt": "Somewhere in New York"},
+                {"type": "image", "src": "/images/feed/la.webp", "alt": "Los Angeles - California"},
+                {"type": "image", "src": "/images/feed/beach.webp", "alt": "footprints in sand"},
+                {"type": "image", "src": "/images/feed/ny.webp", "alt": "Somewhere in New York"},
                 {"type": "image", "src": "/images/feed/moon.webp", "alt": "I love the moon"},
-                {"type": "image", "src": "/images/feed/coffee.jpeg", "alt": "Coffee + book = the best combo ever"},
-                {"type": "image", "src": "/images/feed/sunflowers.jpeg", "alt": "sunflowers <3"}
+                {"type": "image", "src": "/images/feed/coffee.webp", "alt": "Coffee + book = the best combo ever"},
+                {"type": "image", "src": "/images/feed/sunflowers.webp", "alt": "sunflowers <3"}
             ],
             "tagged": [
-                {"type": "image", "src": "/images/feed/dog.jpeg", "alt": "My dog likes to be around my books and macbook"},
-                {"type": "image", "src": "/images/feed/cat.jpeg", "alt": "My cat's eyes"},
-                {"type": "image", "src": "/images/feed/macbook.jpeg", "alt": "I really love drinking coffee while I work"},
+                {"type": "image", "src": "/images/feed/dog.webp", "alt": "My dog likes to be around my books and macbook"},
+                {"type": "image", "src": "/images/feed/cat.webp", "alt": "My cat's eyes"},
+                {"type": "image", "src": "/images/feed/macbook.webp", "alt": "I really love drinking coffee while I work"},
                 {"type": "image", "src": "/images/feed/moon.webp", "alt": "I love the moon"},
-                {"type": "image", "src": "/images/feed/coffee.jpeg", "alt": "Coffee + book = the best combo ever"},
-                {"type": "image", "src": "/images/feed/sunflowers.jpeg", "alt": "sunflowers <3"}
+                {"type": "image", "src": "/images/feed/coffee.webp", "alt": "Coffee + book = the best combo ever"},
+                {"type": "image", "src": "/images/feed/sunflowers.webp", "alt": "sunflowers <3"}
             ],
             "stories": [
                 {"title": "pets", "image": {"src": "/images/stories/dog.webp", "alt": "story"}},
-                {"title": "travels", "image": {"src": "/images/stories/travels.jpeg", "alt": "story"}},
+                {"title": "travels", "image": {"src": "/images/stories/travels.webp", "alt": "story"}},
                 {"title": "sky", "image": {"src": "/images/stories/sky.webp", "alt": "story"}},
-                {"title": "routine", "image": {"src": "/images/stories/macbook.jpeg", "alt": "story"}},
-                {"title": "places", "image": {"src": "/images/stories/bike.jpeg", "alt": "story"}},
+                {"title": "routine", "image": {"src": "/images/stories/macbook.webp", "alt": "story"}},
+                {"title": "places", "image": {"src": "/images/stories/bike.webp", "alt": "story"}},
                 {"title": "aesthetic", "image": {"src": "/images/stories/hand.webp", "alt": "story"}},
                 {"title": "books", "image": {"src": "/images/stories/book.webp", "alt": "story"}}
             ]
