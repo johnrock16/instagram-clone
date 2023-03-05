@@ -15,11 +15,11 @@ const EN_US = {
       }
     },
     common: {
-      posts: "Publicações",
+      posts: "Posts",
       reels: "Reels",
-      tagged: "Marcados",
-      followers: "Seguidores",
-      following: "Seguindo",
+      tagged: "Tagged",
+      followers: "Followers",
+      following: "Following",
     },
     footer: {
       about: "About",

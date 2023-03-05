@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import ProfilePage from './js/pages/profilePage';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('profile Page', () => {
+  render(<ProfilePage userID="Coffeislife" />);
+  test("info has loaded", ()=>{
+    const profileName = screen.getByText(/Audra Colleen/i);
+    expect(profileName).toBeInTheDocument();
+  });
 });
