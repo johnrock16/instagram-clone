@@ -42,13 +42,13 @@
                 {"type": "image", "src": "/images/feed/sunflowers.webp", "alt": "sunflowers <3"}
             ],
             "stories": [
-                {"title": "pets", "image": {"src": "/images/stories/dog.webp", "alt": "story"}},
-                {"title": "travels", "image": {"src": "/images/stories/travels.webp", "alt": "story"}},
-                {"title": "sky", "image": {"src": "/images/stories/sky.webp", "alt": "story"}},
-                {"title": "routine", "image": {"src": "/images/stories/macbook.webp", "alt": "story"}},
-                {"title": "places", "image": {"src": "/images/stories/bike.webp", "alt": "story"}},
-                {"title": "aesthetic", "image": {"src": "/images/stories/hand.webp", "alt": "story"}},
-                {"title": "books", "image": {"src": "/images/stories/book.webp", "alt": "story"}}
+                {"title": "pets", "image": {"src": "/images/stories/dog.webp", "alt": "my pets stories"}},
+                {"title": "travels", "image": {"src": "/images/stories/travels.webp", "alt": "my travel was so incredible"}},
+                {"title": "sky", "image": {"src": "/images/stories/sky.webp", "alt": "look at the sky"}},
+                {"title": "routine", "image": {"src": "/images/stories/macbook.webp", "alt": "saturday"}},
+                {"title": "places", "image": {"src": "/images/stories/bike.webp", "alt": "a bike in a historical place"}},
+                {"title": "aesthetic", "image": {"src": "/images/stories/hand.webp", "alt": "so aesthetic"}},
+                {"title": "books", "image": {"src": "/images/stories/book.webp", "alt": "I love this book"}}
             ]
         }
     }

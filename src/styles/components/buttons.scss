@@ -16,6 +16,13 @@
         background-color: $secondary;
     }
 
+    &--transparent {
+        padding: 0;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
     &--icon {
         @include fontSize(2.4);
         background: none;
