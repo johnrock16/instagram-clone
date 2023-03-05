@@ -1,4 +1,5 @@
 import { memo } from "react";
+import "../../styles/components/header.scss";
 
 const Header = memo(function Header() {
     return(

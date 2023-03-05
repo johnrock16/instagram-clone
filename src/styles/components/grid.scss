@@ -1,0 +1,21 @@
+.in-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: min-content;
+    gap: $gutterHalf;
+
+    &__item {
+        img {
+            object-fit: cover;
+            min-height: 100%;
+            aspect-ratio: 4/4;
+        }
+    }
+}
+
+
+@media ($aboveTablet) {
+    .in-grid {
+        gap: $gutter * 3;
+    }
+}

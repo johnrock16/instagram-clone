@@ -1,3 +1,5 @@
+@import '../source/core.scss';
+
 .in-profileInfo {
     display: grid;
     grid-template:
@@ -104,7 +106,7 @@
         gap: $gutter * 2;
     }
 
-    &__button {
+    &__button.button {
         @include fontSize(2.8);
         text-transform: uppercase;
         color: $secondaryTextContrast;
@@ -176,7 +178,7 @@
     }
 
     .in-profileNavigate {
-        &__button {
+        &__button.button {
             gap: $gutter;
             @include fontSize(1.2);
 

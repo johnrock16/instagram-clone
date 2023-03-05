@@ -1,6 +1,7 @@
 import {memo} from "react"
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../../i18n/languageSelector";
+import "../../styles/components/footer.scss";
 
 const Footer = memo(function Footer() {
     const { t } = useTranslation();

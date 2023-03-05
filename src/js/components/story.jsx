@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import '../../styles/components/story.scss';
 function Story({image, title}) {
     return(
         <button className='in-profile__story in-story button--transparent' aria-label={`Story ${title}`}>

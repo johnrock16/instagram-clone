@@ -7,6 +7,7 @@ import {IoMdGrid} from 'react-icons/io';
 import {BiMoviePlay} from 'react-icons/bi';
 import {BsPersonSquare} from 'react-icons/bs';
 import USER from '../../mock/users/users.json';
+import '../../styles/pages/profile.scss';
 
 function ProfilePage({userID}) {
   const [currentGrid, setCurrentGrid] = useState("feed");
