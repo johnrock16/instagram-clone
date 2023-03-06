@@ -2,7 +2,7 @@
 
 The purpose of this project was to recreate the instagram profile using WEB technologies for study purposes with focus on develop a layout kinda pixel perfect with a 100 score in lighthouse when we test the builded application.
 
-## Dekstop
+## Desktop
 ![The project layout in desktop. A instagram profile with user data and pictures](./readMe/desktopScreen.jpg)
 ## Mobile
 ![The project layout in mobile. A instagram profile with user data and pictures](./readMe/mobileScreen.jpg)
