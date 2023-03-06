@@ -1,9 +1,72 @@
-# Getting Started with Create React App
+# Instagram-clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project was to recreate the instagram profile using WEB technologies for study purposes with focus on develop a layout kinda pixel perfect with a 100 score in lighthouse when we test the builded application.
 
-## Available Scripts
+## Dekstop
+![The project layout in desktop. A instagram profile with user data and pictures](./readMe/desktopScreen.jpg)
+## Mobile
+![The project layout in mobile. A instagram profile with user data and pictures](./readMe/mobileScreen.jpg)
 
+#
+
+## Technologies used:
+### Languages:
+ - HTML
+ - CSS
+ - Javascript
+
+### Libraries:
+- React,
+- React-i18next,
+- Sass,
+- React Icons
+
+### Structure:
+- Componentization
+
+### Performance:
+- Memoization
+- lazy loading
+- Images converted to .webp
+- Minification (build)
+- Inline-style (build)
+
+### Layout:
+- Mobile-first
+- BEM
+- Pack of essential styles stored in source
+
+### Accessibility:
+- Colors with contrast
+- Images with alt
+- Aria-labels
+
+### SEO:
+- Semantic tags
+- Heading tags
+
+### Others:
+- i18n - Translation
+#
+
+## Lighthouse
+
+## Desktop
+![The project perfomance, accessibility, best practices and SEO points in Lighthouse on desktop version all categories are in 100 points.](./readMe/desktopLightHouse.jpg)
+
+## Mobile
+![The project perfomance, accessibility, best practices and SEO points in Lighthouse on mobile version all categories are in 100 points.](./readMe/mobileLightHouse.jpg)
+
+
+#
+
+## How to start
+First you need to use to install all node_modules dependencies
+### `npm install`
+
+#
+
+## Commands
 In the project directory, you can run:
 
 ### `npm start`
@@ -39,32 +102,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm run convert:images`
+All images in /public/images will be copied in /public/imagesWebp with .webp format
+#
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Images
+All images to profile picture, stories and grid are from PEXELS with free-use, I strong recommend this site their have great images to use in your website.
+#
